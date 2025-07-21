@@ -1,0 +1,147 @@
+body { 
+font-family: Calibri;
+background-color: #F2F2F2;
+}
+
+#navtop{
+	background-image: linear-gradient(to right, #2160FF,#133993);
+}
+
+#navtop-navs li a{
+	color: white;
+	font-size: 22px;
+	border-radius: 10px;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+#navtop-navs li a:hover{
+	background-color: dodgerblue;
+	color: black;
+}
+.navbar-brand em{
+	margin: 0px 10px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#resumecv-btn{
+	border-color: white;
+	color: white;
+	transition: background-color 0.5s;
+}
+
+#resumecv-btn:hover{
+	background-color: dodgerblue;
+}
+
+#ddown-list li a{
+	color: black;
+}
+
+.tandp{
+	border: 1px;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 15px;
+}
+
+.tandp div{
+	margin: 15px;
+}
+
+.biodata div h1, .biodata div p{
+	display: block;
+	margin: 15px 20px;
+	text-align: center;
+}
+
+.bioblocks{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	margin: 10px 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+img[alt="Profile Image"]{
+	max-width: 350px; border-radius: 100%
+}
+
+@media (min-width: 1000px){
+	.bioblocks{
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	}
+}
+
+@media (min-width: 900px){
+	.bioblocks{
+		grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	}
+}
+
+@media (min-width: 700px){
+	.bioblocks{
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	}
+}
+
+@media (min-width: 500px){
+	.bioblocks{
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	}
+}
+
+@media (max-width: 380px){
+		img[alt="Profile Image"]{
+		max-width: 300px;
+		border-radius: 100%
+	}
+}
+
+@media (min-width: 768px){
+	#herotext2{
+	margin-left: 80px;
+	}
+}
+
+.bioblocks div{
+	border: 1px solid #333;
+	background-color: #d5d5d5;
+	padding: 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.bioblocks div:hover{
+	border: 1px solid #333;
+	background-color: #f3f3f3;
+	padding: 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.portflist{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+	margin: 10px 10px 10px 10px;
+	font-size: 18px;
+	padding: 15px;
+	text-align: center;
+}
+
+#copyright{
+	background-image: linear-gradient(to right, #133993, #2160FF); 
+	color: white;
+	padding: 15px;
+}
+
+#copyright p{
+	margin: 0px;
+}
+
+.navbar-toggler{
+	border: 0.5px solid white;
+	color: white;
+}
+
+.navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}

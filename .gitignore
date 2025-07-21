@@ -1,0 +1,9 @@
+*.jpg
+
+*.png
+
+*.avif
+
+.abc/
+
+bootstrap-5.3.7-dist/
