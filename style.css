@@ -38,33 +38,14 @@ background-color: #F2F2F2;
 	color: black;
 }
 
-.tandp{
-	border: 1px;
-	display: grid;
-	grid-template-columns: auto auto;
-	margin: 15px;
-}
-
-.tandp div{
-	margin: 15px;
-}
-
-.biodata div h1, .biodata div p{
-	display: block;
-	margin: 15px 20px;
-	text-align: center;
-}
-
-.bioblocks{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	margin: 10px 50px;
-	font-size: 20px;
-	text-align: center;
+.container-xxl{
+	 /* max-width: 768px; */
+	 max-width: 900px;
 }
 
 img[alt="Profile Image"]{
-	max-width: 350px; border-radius: 100%
+	max-width: 350px;
+	height: auto;
 }
 
 @media (min-width: 1000px){
@@ -94,28 +75,51 @@ img[alt="Profile Image"]{
 @media (max-width: 380px){
 		img[alt="Profile Image"]{
 		max-width: 300px;
-		border-radius: 100%
 	}
+}
+
+.yabout{
+	text-align: center;
+}
+
+@media (max-width: 985px){
+		#header{
+		margin-bottom: 60px;
+		max-width: 768px;
+		align: center; 
+	}
+}
+
+img[alt="Profile Image"]{
+	margin-bottom: 30px;
+}
+
+.yme{
+	padding-left: 125px;
+}
+	
+.yweb{
+	margin-right: 125px;
+}	
+
+#herotext2{
+	margin-left: 80px;
 }
 
 @media (min-width: 768px){
 	#herotext2{
 	margin-left: 80px;
 	}
+	.yabout{
+		text-align: right;
+	}
+	img[alt="Profile Image"]{
+		margin-bottom: 60px;
+	}
 }
 
-.bioblocks div{
-	border: 1px solid #333;
-	background-color: #d5d5d5;
-	padding: 10px 10px;
-	margin: 10px 10px 10px 10px;
-}
-
-.bioblocks div:hover{
-	border: 1px solid #333;
-	background-color: #f3f3f3;
-	padding: 10px 10px;
-	margin: 10px 10px 10px 10px;
+.ycardsr{
+	text-align: right;
 }
 
 .portflist{
